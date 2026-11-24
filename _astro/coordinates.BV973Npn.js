@@ -1,0 +1,1 @@
+function e(e,t,n){let r=e.getScreenCTM();if(!r)return;let i=new DOMPoint(t,n).matrixTransform(r.inverse());if(Number.isFinite(i.x)&&Number.isFinite(i.y))return{x:i.x,y:i.y}}export{e as t};
